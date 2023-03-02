@@ -8,7 +8,6 @@ const Proficient = () => {
       <div className={styles.tech__content}>
         <Heading>Proficiencies</Heading>
         <div className={styles.tech__techSkills}>
-          
           <div className={styles.tech__skill}>
             <img src="./icons/front-end.png" alt="icons" />
             <p>Frontend</p>

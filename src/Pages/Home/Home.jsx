@@ -1,16 +1,16 @@
 // import React, { useEffect, useState } from 'react'
-import styles from './Home.module.css'
+import styles from "./Home.module.css";
 // import styled from 'styled-components'
-import { Card } from '../../Components/Card/Card'
-import { Heading } from '../../Components/Heading/Heading'
-import { Technologies } from '../../Components/Skills/Technologies'
-import { About } from '../../Components/About/About'
-import { Contact } from '../../Components/Contact/Contact'
-import projectData from '../../project.json'
-import { Tools } from '../../Components/Skills/Tools'
-import { Proficient } from '../../Components/Skills/Proficient'
-import { Hero } from '../../Components/Hero/Hero'
-import {Experience} from '../../Components/experience/Experience'
+import { Card } from "../../Components/Card/Card";
+import { Heading } from "../../Components/Heading/Heading";
+import { Technologies } from "../../Components/Skills/Technologies";
+import { About } from "../../Components/About/About";
+import { Contact } from "../../Components/Contact/Contact";
+import projectData from "../../project.json";
+import { Tools } from "../../Components/Skills/Tools";
+import { Proficient } from "../../Components/Skills/Proficient";
+import { Hero } from "../../Components/Hero/Hero";
+import { Experience } from "../../Components/experience/Experience";
 
 // const Name = styled.h1`
 // color: #252525;
@@ -61,24 +61,21 @@ import {Experience} from '../../Components/experience/Experience'
 // `
 
 const Home = () => {
-//     const [vs, setVs] = useState(true)
+  //     const [vs, setVs] = useState(true)
 
+  //     useEffect(() => {
+  //        setTimeout(() => {
+  //             setVs(false)
+  //         },5000)
+  //    },[])
 
-//     useEffect(() => {
-//        setTimeout(() => {
-//             setVs(false)
-//         },5000)
-//    },[])
-        
+  //     const handleWarning = () => {
 
-
-//     const handleWarning = () => {
-
-//         setVs(true)
-//     }
-    return (
-        <div className={styles.Container}>
-        {/* <div className={styles.mainContainer}>
+  //         setVs(true)
+  //     }
+  return (
+    <div className={styles.Container}>
+      {/* <div className={styles.mainContainer}>
             <Warning vs={vs}><p>! The  website is under development</p><button onClick={handleWarning}>X</button></Warning>
             <img src="./images/picSquare.jpg" alt="ProfileImage" />
             <Name>Hi I'm DEBASISH RANSINGH</Name>
@@ -91,47 +88,50 @@ const Home = () => {
                     <p>Resume</p>
             </div></a>
             </div> */}
-            <section id="hero">
-                <Hero/>
-            </section>
-            <section id="about">
-            <About/>
-            </section>
-            <section id="skills">
-            <Technologies />
-            <Proficient/>
-            <Tools/>
-            </section>
-            <section id="experience">
-                <Experience/>
-            </section>
-            <section id="project">
-            <div className={styles.projectSection}>
-               
-                <Heading>Projects</Heading>
-                <div className={styles.projectContent}>
-                    
-                
-                {/* <Card/>
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="skills">
+        <Technologies />
+        <Proficient />
+        <Tools />
+      </section>
+      <section id="experience">
+        <Experience />
+      </section>
+      <section id="project">
+        <div className={styles.projectSection}>
+          <Heading>Projects</Heading>
+          <div className={styles.projectContent}>
+            {/* <Card/>
                 <Card/>
                 <Card/>
                 <Card/>
                     <Card /> */}
-                    {projectData.map(({image,title,desc,tech,demo,code},index) => (
-                        
-                        <Card key={index } title={title} desc={desc} tech={tech} img={image} demo={ demo} code={ code} />
-                    )
+            {projectData.map(
+              ({ image, title, desc, tech, demo, code }, index) => (
+                <Card
+                  key={index}
+                  title={title}
+                  desc={desc}
+                  tech={tech}
+                  img={image}
+                  demo={demo}
+                  code={code}
+                />
+              )
+            )}
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+    </div>
+  );
+};
 
-                    )}
-
-                    </div>
-            </div>
-            </section>
-            <section id="contact">
-            <Contact/>
-            </section>
-            </div>
-    )
-}
-
-export {Home}
+export { Home };
