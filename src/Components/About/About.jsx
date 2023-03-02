@@ -1,6 +1,6 @@
-import React from "react";
-import { Heading } from "../Heading/Heading";
-import styles from "./About.module.css";
+import React from 'react';
+import { Heading } from '../Heading/Heading';
+import styles from './About.module.css';
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
       <div className={styles.about}>
         <Heading>About me</Heading>
         <div className={styles.aboutContent}>
-          <img src="./images/aboutme.svg" alt="aboutme" />
+          <img src='./images/aboutme.svg' alt='aboutme' />
           <div className={styles.content}>
             <p>
               Detailed-oriented, responsible, and committed developer, with a
@@ -27,18 +27,18 @@ const About = () => {
             </p>
             <div className={styles.links}>
               <a
-                href="https://github.com/singhprince03"
-                target="_blank"
-                rel="noopener noreferrer"
+                href='https://github.com/singhprince03'
+                target='_blank'
+                rel='noopener noreferrer'
               >
-                <img src="./icons/github-icon-1.svg" alt="" />
+                <img src='./icons/github-icon-1.svg' alt='' />
               </a>
               <a
-                href="https://www.linkedin.com/in/singhprince30/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href='https://www.linkedin.com/in/singhprince30/'
+                target='_blank'
+                rel='noopener noreferrer'
               >
-                <img src="./icons/linkedin-icon-2.svg" alt="" />
+                <img src='./icons/linkedin-icon-2.svg' alt='' />
               </a>
             </div>
           </div>

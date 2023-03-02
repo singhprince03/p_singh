@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./Hero.module.css";
+import React from 'react';
+import styles from './Hero.module.css';
 
 const Hero = () => {
   return (
@@ -15,17 +15,17 @@ const Hero = () => {
           useful and interactive web applications.
         </p>
         <a
-          href="https://bit.ly/3kyjXS3"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://bit.ly/3kyjXS3'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           <p className={styles.resumeBtn}>Resume</p>
         </a>
       </div>
       <div className={styles.right}>
         <img
-          src="./images/webpic3.png"
-          alt="ProfileImage"
+          src='./images/webpic3.png'
+          alt='ProfileImage'
           className={styles.ProfileImage}
         />
       </div>

@@ -1,16 +1,16 @@
 // import React, { useEffect, useState } from 'react'
-import styles from "./Home.module.css";
+import styles from './Home.module.css';
 // import styled from 'styled-components'
-import { Card } from "../../Components/Card/Card";
-import { Heading } from "../../Components/Heading/Heading";
-import { Technologies } from "../../Components/Skills/Technologies";
-import { About } from "../../Components/About/About";
-import { Contact } from "../../Components/Contact/Contact";
-import projectData from "../../project.json";
-import { Tools } from "../../Components/Skills/Tools";
-import { Proficient } from "../../Components/Skills/Proficient";
-import { Hero } from "../../Components/Hero/Hero";
-import { Experience } from "../../Components/experience/Experience";
+import { Card } from '../../Components/Card/Card';
+import { Heading } from '../../Components/Heading/Heading';
+import { Technologies } from '../../Components/Skills/Technologies';
+import { About } from '../../Components/About/About';
+import { Contact } from '../../Components/Contact/Contact';
+import projectData from '../../project.json';
+import { Tools } from '../../Components/Skills/Tools';
+import { Proficient } from '../../Components/Skills/Proficient';
+import { Hero } from '../../Components/Hero/Hero';
+import { Experience } from '../../Components/experience/Experience';
 
 // const Name = styled.h1`
 // color: #252525;
@@ -88,21 +88,21 @@ const Home = () => {
                     <p>Resume</p>
             </div></a>
             </div> */}
-      <section id="hero">
+      <section id='hero'>
         <Hero />
       </section>
-      <section id="about">
+      <section id='about'>
         <About />
       </section>
-      <section id="skills">
+      <section id='skills'>
         <Technologies />
         <Proficient />
         <Tools />
       </section>
-      <section id="experience">
+      <section id='experience'>
         <Experience />
       </section>
-      <section id="project">
+      <section id='project'>
         <div className={styles.projectSection}>
           <Heading>Projects</Heading>
           <div className={styles.projectContent}>
@@ -127,7 +127,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section id="contact">
+      <section id='contact'>
         <Contact />
       </section>
     </div>

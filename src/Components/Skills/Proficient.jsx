@@ -1,6 +1,6 @@
-import React from "react";
-import { Heading } from "../Heading/Heading";
-import styles from "./Tech.module.css";
+import React from 'react';
+import { Heading } from '../Heading/Heading';
+import styles from './Tech.module.css';
 
 const Proficient = () => {
   return (
@@ -9,7 +9,7 @@ const Proficient = () => {
         <Heading>Proficiencies</Heading>
         <div className={styles.tech__techSkills}>
           <div className={styles.tech__skill}>
-            <img src="./icons/front-end.png" alt="icons" />
+            <img src='./icons/front-end.png' alt='icons' />
             <p>Frontend</p>
           </div>
         </div>

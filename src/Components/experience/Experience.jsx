@@ -1,12 +1,12 @@
-import React from "react";
-import "./Experience.css";
+import React from 'react';
+import './Experience.css';
 
 const Experience = () => {
   return (
     <>
-      <div className="experience__mainContainer">
-        <div className="experience">
-          <div className="experience__left">
+      <div className='experience__mainContainer'>
+        <div className='experience'>
+          <div className='experience__left'>
             <div>
               <h1>1200+</h1>
               <p>HOURS OF CODING</p>
@@ -16,7 +16,7 @@ const Experience = () => {
               <p>GIT COMMITS</p>
             </div>
           </div>
-          <div className="experience__right">
+          <div className='experience__right'>
             <div>
               <h1>30+</h1>
               <p>PROJECTS</p>
@@ -28,8 +28,8 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <div className="experience__githubImg">
-        <img src="./images/github1.png" alt="github" />
+      <div className='experience__githubImg'>
+        <img src='./images/github1.png' alt='github' />
       </div>
     </>
   );

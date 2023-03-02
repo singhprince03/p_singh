@@ -1,13 +1,13 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 import {
   FaGithub,
   FaYoutube,
   FaInstagram,
   FaLinkedinIn,
   FaTwitter,
-} from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+} from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
 
 const SocialContainer = styled.div`
   margin: 2rem;
@@ -41,9 +41,9 @@ const SocialLogosH = () => {
   return (
     <SocialContainer>
       <a
-        href="https://github.com/singhprince03"
-        target="_blank"
-        rel="noopener noreferrer"
+        href='https://github.com/singhprince03'
+        target='_blank'
+        rel='noopener noreferrer'
       >
         <span>
           <FaGithub />
@@ -51,36 +51,36 @@ const SocialLogosH = () => {
       </a>
 
       <a
-        href="https://www.youtube.com/channel/UC9bqAMPdiYbsX5ZcpCBrNnw"
-        target="_blank"
-        rel="noopener noreferrer"
+        href='https://www.youtube.com/channel/UC9bqAMPdiYbsX5ZcpCBrNnw'
+        target='_blank'
+        rel='noopener noreferrer'
       >
         <span>
           <FaYoutube />
         </span>
       </a>
       <a
-        href="https://www.instagram.com/_prinz03/"
-        target="_blank"
-        rel="noopener noreferrer"
+        href='https://www.instagram.com/_prinz03/'
+        target='_blank'
+        rel='noopener noreferrer'
       >
         <span>
           <FaInstagram />
         </span>
       </a>
       <a
-        href="https://twitter.com/singh_prince30"
-        target="_blank"
-        rel="noopener noreferrer"
+        href='https://twitter.com/singh_prince30'
+        target='_blank'
+        rel='noopener noreferrer'
       >
         <span>
           <FaTwitter />
         </span>
       </a>
       <a
-        href="https://www.linkedin.com/in/singhprince30/"
-        target="_blank"
-        rel="noopener noreferrer"
+        href='https://www.linkedin.com/in/singhprince30/'
+        target='_blank'
+        rel='noopener noreferrer'
       >
         <span>
           <FaLinkedinIn />
@@ -88,9 +88,9 @@ const SocialLogosH = () => {
       </a>
 
       <a
-        href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTMXgDJDSLrMDCZPkBjfvKfHkSTTKDCNpQKRTtBKmmFqJxGNpnrRzlHzBdMSNwrSMgZpgV"
-        target="_blank"
-        rel="noopener noreferrer"
+        href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTMXgDJDSLrMDCZPkBjfvKfHkSTTKDCNpQKRTtBKmmFqJxGNpnrRzlHzBdMSNwrSMgZpgV'
+        target='_blank'
+        rel='noopener noreferrer'
       >
         <span>
           <SiGmail />
