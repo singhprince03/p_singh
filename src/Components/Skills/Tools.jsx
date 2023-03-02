@@ -25,23 +25,23 @@ const Tools = () => {
             <img src="./icons/figma-1.svg" alt="icons" />
             <p>Figma</p>
                   </div>
-                  <div className={styles.tech__skill}>
-            <img src="./icons/adobe-photoshop-2.svg" alt="icons" />
-            <p>Potoshop</p>
-                  </div>
-                  <div className={styles.tech__skill}>
-            <img src="./icons/adobe-illustrator-cc-2019.svg" alt="icons" />
-            <p>Illustrator</p>
-          </div>
+//                   <div className={styles.tech__skill}>
+//             <img src="./icons/adobe-photoshop-2.svg" alt="icons" />
+//             <p>Potoshop</p>
+//                   </div>
+//                   <div className={styles.tech__skill}>
+//             <img src="./icons/adobe-illustrator-cc-2019.svg" alt="icons" />
+//             <p>Illustrator</p>
+//           </div>
           
-          <div className={styles.tech__skill}>
-            <img src="./icons/adobe-xd-2.svg" alt="icons" />
-            <p>Adobe XD</p>
-          </div>
-          <div className={styles.tech__skill}>
-            <img src="./icons/blender-2.svg" alt="icons" />
-            <p>Blender</p>
-          </div>
+//           <div className={styles.tech__skill}>
+//             <img src="./icons/adobe-xd-2.svg" alt="icons" />
+//             <p>Adobe XD</p>
+//           </div>
+//           <div className={styles.tech__skill}>
+//             <img src="./icons/blender-2.svg" alt="icons" />
+//             <p>Blender</p>
+//           </div>
           
           
           
