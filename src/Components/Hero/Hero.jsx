@@ -13,7 +13,7 @@ const Hero = () => {
                 </a>
             </div>
             <div className={styles.right}>
-                <img src="../../../public/images/webpic3.png" alt="ProfileImage" className={styles.ProfileImage}/>
+                <img src="./images/webpic3.png" alt="ProfileImage" className={styles.ProfileImage}/>
             </div>
         </div>
     )
