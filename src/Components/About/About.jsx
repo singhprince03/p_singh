@@ -14,9 +14,9 @@ const About = () => {
                     <br />
                     <p>Love to travel and explore. It refreshes my mind, body, anxiety, stress and keeps me active all the time. While exploring keeping all the moments as memory in the camera, and this is how you became a photographer also. And I enjoying the journey than the destination</p>
                         <div className={styles.links}>
-                            <a href="https://github.com/Ransingh88" target="_blank" rel="noopener noreferrer"><img src="./icons/github-icon-1.svg" alt="" /></a>
-                            <a href="https://www.linkedin.com/in/debasish-ransingh-612437154/" target="_blank" rel="noopener noreferrer"><img src="./icons/linkedin-icon-2.svg" alt="" /></a>
-                            <a href="https://medium.com/@d_ransingh88" target="_blank" rel="noopener noreferrer"><img src="./icons/monogram-medium.svg" alt="" /></a>
+                            <a href="https://github.com/singhprince03" target="_blank" rel="noopener noreferrer"><img src="./icons/github-icon-1.svg" alt="" /></a>
+                            <a href="https://www.linkedin.com/in/singhprince30/" target="_blank" rel="noopener noreferrer"><img src="./icons/linkedin-icon-2.svg" alt="" /></a>
+                           
                     </div>
                     </div>
                     </div>
