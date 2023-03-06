@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
       <div className={styles.right}>
         <img
-          src='./images/webpic3.png'
+          src='./images/psingh.png'
           alt='ProfileImage'
           className={styles.ProfileImage}
         />

@@ -41,7 +41,7 @@
     "code": "https://github.com/singhprince03/projects/tree/main/JS%20Projects/Audio%20Player"
   },
   {
-    "image": "stockData",
+    "image": "Stock-Data",
     "title": "Stock Data",
     "desc": "A Stock App to see stock data for particular date",
     "tech": ["react-2","logo-javascript", "html-1", "css-3"],
