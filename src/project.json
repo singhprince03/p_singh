@@ -46,6 +46,6 @@
     "desc": "A Stock App to see stock data for particular date",
     "tech": ["react-2","logo-javascript", "html-1", "css-3"],
     "demo": "https://codesandbox.io/s/bold-brown-hwzrcm",
-    "code": "https://github.com/singhprince03/projects/tree/main/React%20Projects/stock_data"
+    "code": "https://github.com/singhprince03/projects/tree/main/React%20Projects/Stock_Data"
   }
 ]
