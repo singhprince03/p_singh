@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border-bottom: 1px solid #ddd; */
   padding: 0.2rem 5rem;
   position: fixed;
   top: 0;
@@ -38,7 +37,6 @@
 }
 
 .hamMenu {
-  /* height:160px; */
   width: 150px;
   background-color: white;
   position: absolute;

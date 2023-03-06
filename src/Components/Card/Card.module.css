@@ -30,20 +30,14 @@
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   transition: 0.3s;
-  /* background-color: red; */
 }
 .Container .card:hover .box {
   transform: translateY(-50px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .Container .card .box .content {
-  /* padding: 10px; */
-  /* text-align: center; */
   color: #303030;
-  /* background-color: aquamarine; */
 }
 .Container .card .box .content > img {
   width: 100%;
@@ -54,7 +48,6 @@
   padding: 15px;
 }
 .bodyContents .projectDesc p {
-  /* background-color: red; */
   font-size: 13px;
   margin-top: 0.4rem;
   color: gray;
@@ -72,11 +65,7 @@
 }
 .techStack img {
   margin: 0.7rem;
-  /* filter: grayscale(100%); */
 }
-/* .techStack img:hover{
-    filter: grayscale(0%);
-} */
 .links {
   display: flex;
   justify-content: space-around;
@@ -86,7 +75,6 @@
   width: 90%;
   border-top: 1px solid #ddd;
   padding: 1rem 0;
-  /* background-color: red; */
 }
 .links a {
   text-decoration: none;

@@ -7,7 +7,6 @@
 }
 
 .experience {
-  /* background-color: red; */
   width: 80%;
   display: flex;
   align-items: center;
@@ -16,7 +15,6 @@
 }
 .experience__left,
 .experience__right {
-  /* background-color: gray; */
   flex: 0.5;
   display: flex;
   align-items: center;

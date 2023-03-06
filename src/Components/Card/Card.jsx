@@ -16,8 +16,6 @@ const Card = ({ img, title, desc, tech, demo, code }) => {
                 <p>{desc}</p>
               </div>
               <div className={styles.techStack}>
-                {/* <img src="./icons/react-2.svg" alt="" height="25px"/> */}
-
                 {tech.map((ele, index) => (
                   <img
                     key={index}

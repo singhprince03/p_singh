@@ -45,8 +45,6 @@ const Navbar = () => {
         ) : (
           <img src='./icons/icons8-menu.svg' alt='' width='30px' />
         )}
-        {/* <img src="./icons/icons8-menu.svg" alt="" width="30px"/> */}
-
         <div className={menu ? styles.hamMenuActive : styles.hamMenu}>
           <ScrollLink to='hero' smooth={true}>
             <p>Home</p>

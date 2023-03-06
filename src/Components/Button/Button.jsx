@@ -11,7 +11,7 @@ const CustomButton = styled.div`
   font-weight: 500;
   text-align: center;
   :hover {
-    /* filter: brightness(95%); */
+    filter: brightness(95%);
     cursor: pointer;
     box-shadow: 0 0 10px 1px #eee;
     transform: scale(1.005);

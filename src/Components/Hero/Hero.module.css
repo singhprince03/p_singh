@@ -1,14 +1,10 @@
 .hero {
   padding: 5rem 2rem 0rem 2rem;
-  /* height: 100vh; */
-  /* height: 100vh; */
-  /* background-color: #fafafa; */
   display: flex;
   justify-content: center;
 }
 
 .hero .left {
-  /* background-color: aquamarine; */
   flex: 0.5;
   display: flex;
   flex-direction: column;
@@ -53,7 +49,6 @@
 }
 
 .hero .right {
-  /* background-color: red; */
   flex: 0.4;
 }
 .hero .right .ProfileImage {
