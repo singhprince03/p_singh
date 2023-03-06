@@ -38,6 +38,14 @@
     "desc": "A Audioplayer by using canvas",
     "tech": ["logo-javascript", "html-1", "css-3"],
     "demo": "https://dr-audioplayer.netlify.app/",
-    "code": "https://github.com/singhprince03/projects/tree/main/JS%20Projects/audio_player"
+    "code": "https://github.com/singhprince03/projects/tree/main/JS%20Projects/Audio%20Player"
+  },
+  {
+    "image": "stockData",
+    "title": "Stock Data",
+    "desc": "A Stock App to see stock data for particular date",
+    "tech": ["react-2","logo-javascript", "html-1", "css-3"],
+    "demo": "https://codesandbox.io/s/bold-brown-hwzrcm",
+    "code": "https://github.com/singhprince03/projects/tree/main/React%20Projects/stock-app"
   }
 ]
