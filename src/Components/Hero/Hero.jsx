@@ -6,7 +6,7 @@ const Hero = () => {
     <div className={styles.hero}>
       <div className={styles.left}>
         <h1 className={styles.name}>
-          Hi I'm <br /> PRINCE SINGH
+          Hi 👋, I'm <br /> PRINCE SINGH
         </h1>
         <p className={styles.designation}>FRONT END WEB DEVELOPER 💻</p>
         <p className={styles.shortDesc}>
