@@ -13,7 +13,7 @@ const Contact = () => {
             <h2>Get in touch</h2>
             <div className={styles.cont}>
               <p>
-                <MdMail /> &nbsp; princek@gmail.com
+                <MdMail /> &nbsp; princek172@gmail.com
               </p>
               <p>
                 {' '}
