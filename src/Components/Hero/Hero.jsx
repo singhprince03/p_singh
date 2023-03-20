@@ -15,7 +15,7 @@ const Hero = () => {
           useful and interactive web applications.
         </p>
         <a
-          href='https://bit.ly/3kyjXS3'
+          href='https://bit.ly/3n8YoZe'
           target='_blank'
           rel='noopener noreferrer'
         >
