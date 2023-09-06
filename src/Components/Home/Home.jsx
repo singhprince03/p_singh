@@ -1,14 +1,14 @@
-import styles from './Home.module.css';
-import { Card } from '../../Components/Card/Card';
-import { Heading } from '../../Components/Heading/Heading';
-import { Technologies } from '../../Components/Skills/Technologies';
-import { About } from '../../Components/About/About';
-import { Contact } from '../../Components/Contact/Contact';
-import projectData from '../../project.json';
-import { Tools } from '../../Components/Skills/Tools';
-import { Proficient } from '../../Components/Skills/Proficient';
-import { Hero } from '../../Components/Hero/Hero';
-import { Experience } from '../../Components/experience/Experience';
+import styles from './Home.module.css'
+import About from '../About/About'
+import Card from '../Card/Card'
+import Contact from '../Contact/Contact'
+import Heading from '../Heading/Heading'
+import Hero from '../Hero/Hero'
+import Technologies from '../Skills/Technologies'
+import Tools from '../Skills/Tools'
+import Proficient from '../Skills/Proficient'
+import Experience from '../Experience/Experience'
+import projectData from '../../project.json'
 
 const Home = () => {
   return (
@@ -51,7 +51,7 @@ const Home = () => {
         <Contact />
       </section>
     </div>
-  );
-};
+  )
+}
 
-export { Home };
+export default Home

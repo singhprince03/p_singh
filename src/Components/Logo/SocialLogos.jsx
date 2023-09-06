@@ -1,13 +1,13 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 import {
   FaGithub,
   FaYoutube,
   FaInstagram,
   FaLinkedinIn,
   FaTwitter,
-} from 'react-icons/fa';
-import { SiGmail } from 'react-icons/si';
+} from 'react-icons/fa'
+import { SiGmail } from 'react-icons/si'
 
 const SocialContainer = styled.div`
   margin: 2rem;
@@ -35,9 +35,9 @@ const SocialContainer = styled.div`
       padding: 0.1rem;
     }
   }
-`;
+`
 
-const SocialLogosH = () => {
+const SocialLogos = () => {
   return (
     <SocialContainer>
       <a
@@ -97,7 +97,7 @@ const SocialLogosH = () => {
         </span>
       </a>
     </SocialContainer>
-  );
-};
+  )
+}
 
-export { SocialLogosH };
+export default SocialLogos

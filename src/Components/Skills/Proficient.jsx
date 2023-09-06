@@ -1,6 +1,6 @@
-import React from 'react';
-import { Heading } from '../Heading/Heading';
-import styles from './Tech.module.css';
+import React from 'react'
+import Heading from '../Heading/Heading'
+import styles from './Tech.module.css'
 
 const Proficient = () => {
   return (
@@ -15,7 +15,7 @@ const Proficient = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { Proficient };
+export default Proficient

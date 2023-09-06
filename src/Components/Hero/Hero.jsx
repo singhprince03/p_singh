@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './Hero.module.css';
+import React from 'react'
+import styles from './Hero.module.css'
 
 const Hero = () => {
   return (
@@ -30,7 +30,7 @@ const Hero = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { Hero };
+export default Hero

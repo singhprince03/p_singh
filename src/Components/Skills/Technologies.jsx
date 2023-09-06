@@ -1,6 +1,6 @@
-import React from 'react';
-import { Heading } from '../Heading/Heading';
-import styles from './Tech.module.css';
+import React from 'react'
+import Heading from '../Heading/Heading'
+import styles from './Tech.module.css'
 
 const Technologies = () => {
   return (
@@ -36,10 +36,10 @@ const Technologies = () => {
             <img src='./icons/git-icon.svg' alt='icons' />
             <p>GIT</p>
           </div>
-          <div className={styles.tech__skill}>
+          {/* <div className={styles.tech__skill}>
             <img src='./icons/github-icon-1.svg' alt='icons' />
             <p>Github</p>
-          </div>
+          </div> */}
           <div className={styles.tech__skill}>
             <img src='./icons/express-109.svg' alt='icons' />
             <p>Express</p>
@@ -63,7 +63,7 @@ const Technologies = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { Technologies };
+export default Technologies

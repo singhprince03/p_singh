@@ -1,5 +1,5 @@
-import React from 'react';
-import './Experience.css';
+import React from 'react'
+import './Experience.css'
 
 const Experience = () => {
   return (
@@ -32,7 +32,7 @@ const Experience = () => {
         <img src='./images/github1.png' alt='github' />
       </div>
     </>
-  );
-};
+  )
+}
 
-export { Experience };
+export default Experience

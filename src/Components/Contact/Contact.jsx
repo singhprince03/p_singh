@@ -1,7 +1,7 @@
-import React from 'react';
-import { Heading } from '../Heading/Heading';
-import styles from './Contact.module.css';
-import { MdPhone, MdMail, MdLocationOn } from 'react-icons/md';
+import React from 'react'
+import Heading from '../Heading/Heading'
+import styles from './Contact.module.css'
+import { MdPhone, MdMail, MdLocationOn } from 'react-icons/md'
 
 const Contact = () => {
   return (
@@ -13,14 +13,18 @@ const Contact = () => {
             <h2>Get in touch</h2>
             <div className={styles.cont}>
               <p>
-                <MdMail /> &nbsp; princek172@gmail.com
+                <MdMail /> &nbsp;{' '}
+                <a href='mailto:princek172@gmail.com' rel='noopener noreferrer'>
+                  princek172@gmail.com
+                </a>
               </p>
               <p>
-                {' '}
-                <MdPhone /> &nbsp; +91-9738037886
+                <MdPhone /> &nbsp;
+                <a href='tel:+919738037886' rel='noopener noreferrer'>
+                  +91-9738037886
+                </a>
               </p>
               <p>
-                {' '}
                 <MdLocationOn /> &nbsp; Ranchi, Jharkhand, India
               </p>
             </div>
@@ -63,7 +67,7 @@ const Contact = () => {
         <p className={styles.rights}>princesingh@2023</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { Contact };
+export default Contact

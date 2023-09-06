@@ -1,6 +1,6 @@
-import React from 'react';
-import { Heading } from '../Heading/Heading';
-import styles from './About.module.css';
+import React from 'react'
+import Heading from '../Heading/Heading'
+import styles from './About.module.css'
 
 const About = () => {
   return (
@@ -45,7 +45,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { About };
+export default About

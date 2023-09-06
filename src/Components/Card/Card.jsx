@@ -1,7 +1,6 @@
-import React from 'react';
-// import styled from 'styled-components'
-import styles from './Card.module.css';
-import { FiExternalLink, FiGithub } from 'react-icons/fi';
+import React from 'react'
+import styles from './Card.module.css'
+import { FiExternalLink, FiGithub } from 'react-icons/fi'
 
 const Card = ({ img, title, desc, tech, demo, code }) => {
   return (
@@ -43,7 +42,7 @@ const Card = ({ img, title, desc, tech, demo, code }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { Card };
+export default Card

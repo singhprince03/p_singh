@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import { Link as ScrollLink } from 'react-scroll';
-import styles from './Navbar.module.css';
+import React, { useState } from 'react'
+import { Link as ScrollLink } from 'react-scroll'
+import styles from './Navbar.module.css'
 
 const Navbar = () => {
-  const [menu, setMenu] = useState(false);
+  const [menu, setMenu] = useState(false)
 
   const handleMenu = () => {
     if (menu === false) {
-      setMenu(true);
+      setMenu(true)
     } else {
-      setMenu(false);
+      setMenu(false)
     }
-  };
+  }
 
   return (
     <div className={styles.nav}>
@@ -64,7 +64,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { Navbar };
+export default Navbar

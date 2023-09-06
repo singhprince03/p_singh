@@ -1,6 +1,6 @@
-import React from 'react';
-import { Heading } from '../Heading/Heading';
-import styles from './Tech.module.css';
+import React from 'react'
+import Heading from '../Heading/Heading'
+import styles from './Tech.module.css'
 
 const Tools = () => {
   return (
@@ -27,7 +27,7 @@ const Tools = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { Tools };
+export default Tools
